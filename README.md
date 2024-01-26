@@ -1,16 +1,4 @@
-# Important note for this distribution
 
-This repo is a `MODIFIED redistribution` of the SAT attack tool released by Pramod Subramanyan. You may find the repo of the original SAT attack tool [here](https://bitbucket.org/spramod/host15-logic-encryption/src/default/). 
-
-Mandated by the terms of `GNU GENERAL PUBLIC LICENSE (Version 3)`, we explicitly mark the change made in this distribution as follows: 
-
-- `source/src/solver.cpp`: Both the DIP and the correct output of the DIP are now printed to the standard output. 
-- `source/src/ckt.cpp`: Commented out line 1802 `rewrite_buffers()`. 
-
-- The binaries in the `bin` folder are copied directly from the original repo and NOT compiled from the modified source code. Any user who wants to use the modified tool must go through the compiling process mentioned in `COMPILING.md`.
-
-
----------------
 **Below are the readme from the repo of the original SAT attack tool**
 
 ---------------
